@@ -1,0 +1,94 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background-image: url(./assets/background.png);
+}
+body {
+    font-family: consolas, courier;
+}
+h1,h2,h3{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+    background-color:#333333;
+    height:60px;
+    width:100%;
+}
+header nav{
+    width:80%;
+    margin: auto 10% auto 10%;
+    height: 60px;
+}
+
+
+
+nav img{
+    height: 40px;
+    margin-top: 10px;
+
+}
+nav ul{
+    float: right;
+    color:#ff0099;
+    font-size: 20px;
+    height: 40px;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 20px 40px 10px 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+body section{
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+    padding-top: 100px;
+}
+body section h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+body section h2{
+    font-size: 2em;
+    color:#ff0099;
+    margin-top: 20px;
+}
+body section p{
+    font-size: 1.2em;
+    margin: 20px 0 20px 0;
+}
+body div.separator{
+    text-align: center;
+}
+body div.separator p{
+   font-size: 2em;  
+   position: relative;
+   padding: 50px 0 50px 0;
+   letter-spacing: 10px;
+   font-size: 1.5em;
+   font-weight: 100;
+}
+
+article{
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+article h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0px 50px 0px;
+}
+article h2{
+    margin: 20px 0px 20px 0px;
+}
+article p{
+    margin: 10px 0 10px 0;
+}
